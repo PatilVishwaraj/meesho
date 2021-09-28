@@ -19,11 +19,12 @@
   color: #f43397;
   font-weight: 900;
   font-size: 45px;
-  height: 55px;
+  height: 65px;
 }
 #Search {
   width: 400px;
   height: 55px;
+  border: 1px solid black;
   border-radius: 4px;
 }
 #Item_1 {
@@ -43,7 +44,7 @@
   margin: auto;
 }
 .nav_option {
-  font-weight: 600;
+  font-weight: 400;
   margin: 0 10px;
 }
 .page_item1 {
