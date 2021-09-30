@@ -22,14 +22,16 @@
   height: 65px;
 }
 #Search {
+  margin-left: 20px;
   width: 400px;
-  height: 55px;
-  border: 1px solid black;
+  height: 50px;
+  border: 1px solid #999999;
+  align-self: center;
   border-radius: 4px;
 }
 #Item_1 {
   width: 80%;
-  margin: auto;
+  margin: 56px auto 60px;
   display: flex;
 }
 #Top_catogories {
@@ -48,26 +50,26 @@
   margin: 0 10px;
 }
 .page_item1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 40px 67px 40px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px 67px 40px 48px;
 }
 .page_item1 > button {
-    background-color: #f43397;
-    border-radius: 4px;
-    width: 325px;
-    height: 50px;
-    border: 1px solid #f43397;
-    text-align: center;
+  background-color: #f43397;
+  border-radius: 4px;
+  width: 325px;
+  height: 50px;
+  border: 1px solid #f43397;
+  text-align: center;
 }
-.page_item1 > button > span{
-    color: white;
-    font-size: 18px;
-    font-weight:bold;
-    margin-left: 5px;
-    align-self: center;
+.page_item1 > button > span {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 5px;
+  align-self: center;
 }
 .text1 {
   color: #333333;
@@ -83,12 +85,48 @@
   margin: 28px 0;
   padding: 9px 16px;
 }
-.item_img1 {
-  background-image: url(images/index_2.png);
-
-}
 .flex_end {
-  justify-self: left;
+  justify-self: right;
   margin: 0 10px;
   align-self: center;
+}
+.image_box > img {
+  border-radius: 5px;
+}
+.big_img1 {
+  margin: 48px auto 60px;
+}
+.big_img2 {
+  margin: 0 auto 60px;
+}
+.big_img4 {
+  margin: 50px auto 60px;
+}
+
+/* bottom part */
+#Bottom {
+  width: 98%;
+  height: 300px;
+  margin: auto;
+  border: 1px solid violet;
+  display: flex;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: grid;
+  flex-direction: column;
+}
+.bottom1 {
+  align-items: flex-start;
+  
+  width: 33%;
+  margin: auto;
+  border: 1px solid black;
+}
+.store_btns > img {
+  width: 180px;
+  height: 45px;
+  border-radius: 3px;
 }

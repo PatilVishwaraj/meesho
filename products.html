@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/products.css" />
     <style>
       .products {
         display: grid;
-        grid-template-rows: (3, 1fr);
+        grid-template-columns: (4, 1fr);
+        grid-gap: 1%;
       }
       .box {
         width: 100px;
@@ -20,14 +26,39 @@
     </style>
   </head>
   <body>
-    <div class="products">
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
+    <div id="Header">
+      <div id="Navbar_1">
+        <a href="products.html">
+        <img id="Logo" src="images/logo.png" alt="meesho" />
+        </a>
+        <input
+          type="text"
+          id="Search"
+          name="search"
+          placeholder="Try Saree, Kurti or Search by Product Code"
+        />
+        <div style="margin-left: 30xp" class="flex_end">Download App</div>
+        <div class="flex_end">Become a Supplier</div>
+        <div class="flex_end">Profile</div>
+        <div class="flex_end">Cart</div>
+      </div>
+      <hr />
+      <div id="Navbar_2">
+        <div class="nav_option">Women Ethnic</div>
+        <div class="nav_option">Women Western</div>
+        <div class="nav_option">Jewellery & Accessories</div>
+        <div class="nav_option">Men</div>
+        <div class="nav_option">Beauty & Health</div>
+        <div class="nav_option">Bags & Footwear</div>
+        <div class="nav_option">Home & Kitchen</div>
+        <div class="nav_option">Kids</div>
+        <div class="nav_option">Electronics</div>
+      </div>
+      <hr />
     </div>
+    <h1></h1>
+    <div></div>
+    <div class="products"></div>
   </body>
   <script src="js/products.js"></script>
 </html>
