@@ -37,3 +37,9 @@
     align-self: flex-end;
     text-align: right;
 }
+.blu_box {
+    background-color: #E7EEFF;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
