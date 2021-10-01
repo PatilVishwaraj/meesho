@@ -9,9 +9,12 @@
     <title>login_1</title>
   </head>
   <body>
+    <!-- Header -->
     <div id="Header">
       <div id="Navbar_1">
+        <a href="index.html">
         <img id="Logo" src="images/logo.png" alt="meesho" />
+        </a>
         <input
           type="text"
           id="Search"
@@ -22,27 +25,29 @@
         <div>Become a Supplier</div>
       </div>
     </div>
+    <hr>
+    <!-- login page -->
     <div id="Login_page">
       <div class="login_box">
         <img
-          style="border-radius: 10px"
           class="login_image"
           src="images/login_image.jpg"
           alt="meesho"
         />
-        <div>
-          <div class="login_text">Sign Up to view your profile</div>
-          <div id="IP_box">
-            <div>
-              <div class="country">Country</div>
-              <div>🇮🇳 +91</div>
+        <div class="inbox">
+          <div class="inbox_text">Sign Up to view your profile</div>
+          <div class="mobile_no">
+            <div class="cntry_code">
+              <span>Country</span>
+              <span>🇮🇳 +91</span>
             </div>
-            <div class="contact_info phone_normal">
-              <label class="" for="true">Phone Number</label>
-              <input id="Phone" name="phone" maxlength="10" type="number" />
+            <div class="number">
+              <input type="tel" maxlength="10" placeholder="Phone Number" >
             </div>
           </div>
-          <button>Send OTP</button>
+          <a href="login_2.html">
+            <button>Send OTP</button>
+          </a>
         </div>
       </div>
     </div>

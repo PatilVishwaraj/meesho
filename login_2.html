@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/login_1.css" />
     <title>login_2</title>
-</head>
-<body>
-    
-</body>
-<script src="js/login.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="Header">
+      <div id="Navbar_1">
+        <a href="index.html">
+        <img id="Logo" src="images/logo.png" alt="meesho" />
+        </a>
+        <input
+          type="text"
+          id="Search"
+          name="search"
+          placeholder="Try Saree, Kurti or Search by Product Code"
+        />
+        <div>Download App</div>
+        <div>Become a Supplier</div>
+      </div>
+    </div>
+    <hr>
+    <!-- login page -->
+    <div id="Login_page">
+      <div class="login_box">
+        <img
+          class="login_image"
+          src="images/login_image.jpg"
+          alt="meesho"
+        />
+        <div class="inbox">
+          <div class="inbox_text">Enter OTP sent to 8669523387</div>
+          <div class="chng_no">CHANGE NUMBER</div>
+          <div class="otp">
+              <input class="ipbox" type="tel" pattern="^[0-9]*$" value width="694">
+              <input class="ipbox" type="tel" pattern="^[0-9]*$" value width="694">
+              <input class="ipbox" type="tel" pattern="^[0-9]*$" value width="694">
+              <input class="ipbox" type="tel" pattern="^[0-9]*$" value width="694">
+              <input class="ipbox" type="tel" pattern="^[0-9]*$" value width="694">
+              <input class="ipbox" type="tel" pattern="^[0-9]*$" value width="694">
+          </div>
+          <div class="chng_no">RESEND OTP</div>
+          <a href=".html">
+            <button>Verify</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/login.js"></script>
 </html>

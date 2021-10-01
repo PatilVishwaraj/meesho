@@ -6,11 +6,14 @@
 #Data > div > img {
     width: 100%;
     height: 320px;
+    border-radius: 10px;
 }
 #Data > div {
     width: 23%;
     height: 500px;
     border: 1px solid green;
+    border-radius: 10px;
+    margin: 1%;
 }
 #Data > div > p {
     margin-left: 10px;
