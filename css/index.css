@@ -10,6 +10,7 @@
 #Navbar_1 {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 #Navbar_2 {
   display: flex;
@@ -179,18 +180,13 @@ padding-right: 5px;
   line-height: 24px;
   color: #666666;
 }
-.pink_glow:hover {
-  color: #f43397;
-}
-.black_glow:hover {
- color: #333333;
-}
 .linked {
   text-decoration: none;
   color: inherit;
 }
 .dropdown1 {
   width: 100%;
+  display: none;
 }
 .dropdown1 > .column {
   align-items: flex-start;
@@ -202,19 +198,34 @@ padding-right: 5px;
   height: 30px;
 }
 .dropdown1 > .column > .options {
-  color: #333333;
+  color: #666666;
   margin: 2px;
   padding: 2px;
   height: 30px;
 }
-.Navbar_2 > div:nth-child(4) {
-  display: none;
+.pink_glow:hover {
+  color: #f43397;
+  cursor: pointer;
 }
-.Navbar_2 > div:nth-child(4):hover {
-  display: block;
+.black_glow:hover {
+ color: black;
+ cursor: pointer;
 }
-
-
-
-
-/* border-bottom: 3px solid rgb(244, 51, 151); */
+/* .Navbar_2 > div:nth-child(4) > {
+  
+} */
+.Navbar_2 > div:nth-child(4):hover > {
+  display: flex;
+}
+.download_app, .profile_box {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  border: 1px solid #333333;
+  padding: 5px;
+} 
+.Navbar_2 > .pink_glow:hover {
+  border-bottom: 3px solid rgb(244, 51, 151);
+}
+/* .nav1_options {
+} */

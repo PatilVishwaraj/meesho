@@ -25,7 +25,7 @@ const lot = [
   },
   {
     image: "images/Shirt4.jpg",
-    name: "Cartoon Graffiti Printed Turn Down Collar Shirts",
+    name: "Cartoon Graffiti Printed Turn Down Collar",
     price: "₹369",
     discount: "₹100 discount on 1st order",
     delivery_charges: "Free Delivery",
@@ -81,7 +81,7 @@ const lot = [
   },
   {
     image: "images/Shirt11.jpg",
-    name: "Men's Regular Fit T-Shirt 100% Cotton (Size-L)",
+    name: "Men's Regular Fit T-Shirt 100% Cotton",
     price: "₹473",
     discount: "₹100 discount on 1st order",
     delivery_charges: "Free Delivery",

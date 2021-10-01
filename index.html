@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=], initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meesho</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
@@ -23,87 +23,93 @@
           name="search"
           placeholder="Try Saree, Kurti or Search by Product Code"
         />
-        <div style="margin-left: 30xp;" class="flex_end pink_glow"><a class="linked" href="">Download App</a></div>
-        <div class="flex_end">Become a Supplier</div>
-        <div class="flex_end pink_glow"><a class="linked" href="">Profile</a></div>
-        <div class="flex_end">Cart</div>
+        <div style="margin-left: 30xp;" class="nav1_options pink_glow"><a class="linked" href="https://play.google.com/store/apps/details?id=com.meesho.supply&pid=pow_website&c=pow&pow_click_page_type=HP&pow_distinct_id=17c1748008244b-08f29ce74abce7-a7d173c-100200-17c17480083769">Download App</a></div>
+        <hr/>
+        <div style="display: none;" class="download_app"></div>
+        <div class="nav1_options">Become a Supplier</div>
+        <hr/>
+        <div class="nav1_options pink_glow"><a class="linked" href="login_1.html">Profile</a></div>
+        <hr/>
+        <div style="display: none;" class="profile_box"></div>
+        <div class="nav1_options"><a class="linked" href="cart.html">Cart</a></div>
       </div>
       <hr/>
       <div id="Navbar_2">
         <div class="nav_option pink_glow">Women Ethnic</div>
         <div class="nav_option pink_glow">Women Western</div>
         <div class="nav_option pink_glow">Jewellery & Accessories</div>
-        <div class="nav_option pink_glow">Men</div>
+        <div id="Men" onclick="dropdown1.style.display='flex'" class="nav_option pink_glow">Men</div>
         <div class="nav_option pink_glow">Beauty & Health</div>
         <div class="nav_option pink_glow">Bags & Footwear</div>
         <div class="nav_option pink_glow">Home & Kitchen</div>
         <div class="nav_option pink_glow">Kids</div>
         <div class="nav_option pink_glow">Electronics</div>
       </div>
-      <hr/>
-      <div class="dropdown1 row">
+      <hr style="margin: 0; padding: 0;">
+      <!-- men's dropdown -->
+      <div id="dropdown1" onmouseleave="this.style.display='none';" class="dropdown1 row">
         <div class="column">
           <div class="top">Top Wear</div>
-          <div class="options">All Top Wear</div>
-          <div class="options">Tshirts</div>
-          <div class="options">Shirts</div>
-          <div class="options"></div>
-          <div class="options"></div>
-          <div class="options"></div>
-          <div class="options"></div>
+          <div class="options black_glow">All Top Wear</div>
+          <div class="options black_glow"><a class="linked" href="products.html">Tshirts</a></div>
+          <div class="options black_glow">Shirts</div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
         </div>
         <div class="column">
           <div class="top">Bottom Wear</div>
-          <div class="options">Track Pants</div>
-          <div class="options">Jeans</div>
-          <div class="options">Trousers</div>
-          <div class="options"></div>
-          <div class="options"></div>
-          <div class="options"></div>
-          <div class="options"></div>
+          <div class="options black_glow">Track Pants</div>
+          <div class="options black_glow">Jeans</div>
+          <div class="options black_glow">Trousers</div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
         </div>
         <div class="column">
           <div class="top">Men Accessories</div>
-          <div class="options">All Men Accessories</div>
-          <div class="options">Watches</div>
-          <div class="options">Belts</div>
-          <div class="options">Wallets</div>
-          <div class="options">Jewellery</div>
-          <div class="options">Sunglasses</div>
-          <div class="options">Bags</div>
+          <div class="options black_glow">All Men Accessories</div>
+          <div class="options black_glow">Watches</div>
+          <div class="options black_glow">Belts</div>
+          <div class="options black_glow">Wallets</div>
+          <div class="options black_glow">Jewellery</div>
+          <div class="options black_glow">Sunglasses</div>
+          <div class="options black_glow">Bags</div>
         </div>
         <div class="column">
           <div class="top">Men Footwear</div>
-          <div class="options">Sports Shoes</div>
-          <div class="options">Casual Shoes</div>
-          <div class="options">Formal Shoes</div>
-          <div class="options">Sandals</div>
-          <div class="options"></div>
-          <div class="options"></div>
-          <div class="options"></div>
+          <div class="options black_glow">Sports Shoes</div>
+          <div class="options black_glow">Casual Shoes</div>
+          <div class="options black_glow">Formal Shoes</div>
+          <div class="options black_glow">Sandals</div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
         </div>
         <div class="column">
           <div class="top">Ethnic Wear</div>
-          <div class="options">Men Kurtas</div>
-          <div class="options">Ethnic Jackets</div>
-          <div class="options"></div>
-          <div class="options"></div>
-          <div class="options"></div>
-          <div class="options"></div>
-          <div class="options"></div>
+          <div class="options black_glow">Men Kurtas</div>
+          <div class="options black_glow">Ethnic Jackets</div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
         </div>
         <div class="column">
           <div class="top">Inner & Sleep Wear</div>
-          <div class="options">All Inner & Sleep Wear</div>
-          <div class="options">Vests</div>
-          <div class="options"></div>
-          <div class="options"></div>
-          <div class="options"></div>
-          <div class="options"></div>
-          <div class="options"></div>
+          <div class="options black_glow">All Inner & Sleep Wear</div>
+          <div class="options black_glow">Vests</div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
+          <div class="options black_glow"></div>
         </div>
       </div>
-      <hr/>
+      <hr style="margin: 0; padding: 0;"/>
       <div id="Hero">
         <div id="Item_1">
           <div class="page_item1">

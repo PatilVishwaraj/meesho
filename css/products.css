@@ -1,7 +1,6 @@
 #Data {
     display: grid;
-    grid-template-rows: (4, 1fr);
-    border: 1px solid black;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 #Data > div > img {
     width: 100%;
@@ -9,9 +8,7 @@
     border-radius: 10px;
 }
 #Data > div {
-    width: 23%;
     height: 500px;
-    border: 1px solid green;
     border-radius: 10px;
     margin: 1%;
 }

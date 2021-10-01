@@ -21,29 +21,5 @@
       </div>
   </body>
   <script>
-    const Shoes_JSON = JSON.stringify(Shoes);
-      //store above data in local storage
-      localStorage.setItem("MyShoes", Shoes_JSON);
-      //display on web page
-      let MyShoes = localStorage.getItem("MyShoes");
-      //convert JSON into object;
-      MyShoes = JSON.parse(MyShoes);
-      //create elements in div
-      function showProduct() {
-        var data_div = document.getElementById("data");
-        MyShoes.forEach(function (Product) {
-          var div = document.createElement("div");
-          var p_name = document.createElement("h2");
-          p_name.innerText = Product.name;
-          var p_price = document.createElement("p");
-          p_price.innerText = Product.price;
-          var image = document.createElement("img");
-          image.src = Product.image;
-          
-          div.append(image, p_name, p_price, btn);
-          data_div.append(div);
-        });
-      }
-      showProduct();
   </script>
 </html>
